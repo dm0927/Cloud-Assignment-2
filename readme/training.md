@@ -63,4 +63,5 @@ pip install -r requirements.txt
 ### 6. Execute the command
 
 ```bash
-python training.py```
+python training.py
+```
