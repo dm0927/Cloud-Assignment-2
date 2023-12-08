@@ -121,4 +121,4 @@ Download and install the latest version of Python from [python.org](https://www.
 
 # Setup of Predection on EC2 Instance
 
-The readme file link is available over here [Click Here]()
+The readme file link is available over here [Click Here](https://github.com/dm0927/Cloud-Assignment-2/blob/main/readme/prediction.md)
