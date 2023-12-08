@@ -114,3 +114,11 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+# Setup of Cluster on AWS
+
+Download and install the latest version of Python from [python.org](https://www.python.org/downloads/).
+
+# Setup of Predection on EC2 Instance
+
+The readme file link is available over here [Click Here]()

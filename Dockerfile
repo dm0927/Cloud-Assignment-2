@@ -4,7 +4,7 @@ RUN yum -y update && yum -y install python3 python3-dev python3-pip python3-virt
 	java-1.8.0-openjdk wget
 
 COPY requirements.txt requirements.txt
-COPY hp544_prediction.py hp544_prediction.py
+COPY prediction.py prediction.py
 
 RUN python -V
 RUN python3 -V
@@ -28,6 +28,6 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 RUN /bin/bash -c "source ~/.bashrc"
 RUN /bin/sh -c "source ~/.bashrc"
 
-ENTRYPOINT ["/opt/spark/bin/spark-submit", "--packages", "org.apache.hadoop:hadoop-aws:3.2.4", "hp544_prediction.py"]
+ENTRYPOINT ["/opt/spark/bin/spark-submit", "--packages", "org.apache.hadoop:hadoop-aws:3.2.4", "prediction.py"]
 
 
