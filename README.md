@@ -45,7 +45,7 @@ spark-shell
 If everything is set up correctly, you should see the Spark shell prompt.
 
 
-# Installing Apache Spark on macOS using Homebrew
+# Installing AWS-CLI on Mac
 
 ## If you have sudo permissions, you can install the AWS CLI for all users on the computer. We provide the steps in one easy to copy and paste group. See the descriptions of each line in the following steps.
 
@@ -74,4 +74,43 @@ which aws
 /usr/local/bin/aws 
 $ aws --version
 aws-cli/2.10.0 Python/3.11.2 Darwin/18.7.0 botocore/2.4.5
+```
+
+
+# Setup of Python Env
+
+## Python Environment Setup
+
+This document provides instructions on setting up the Python environment for this project.
+
+### 1. Install Python
+
+Download and install the latest version of Python from [python.org](https://www.python.org/downloads/).
+
+### 2. Install `virtualenv`
+
+If you don't have `virtualenv` installed, run the following command:
+
+```bash
+pip install virtualenv
+```
+
+### 3. Create a `Virtual Environment`
+
+Navigate to your project folder and create a virtual environment (replace "venv" with your preferred name):
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the `Virtual Environment`
+
+```bash
+source venv/bin/activate
+```
+
+### 5. Install Project Dependencies
+
+```bash
+pip install -r requirements.txt
 ```
