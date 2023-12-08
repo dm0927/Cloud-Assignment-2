@@ -1,6 +1,6 @@
 # Setup of EMR on AWS
 
-### 1. Go to EC2 > Create Cluster
+### 1. Go to EC2 -> Create Cluster
 
 ### 2. Give cluster name
 
