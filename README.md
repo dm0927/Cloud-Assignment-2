@@ -2,6 +2,7 @@
 
 ## Docker Image
 <a href="https://hub.docker.com/r/mehtadr/cloud_assignment_2" target="_blank">Docker Image Link</a>
+[Hello, world!](http://example.com/){target="_blank"}
 
 ## Install Homebrew - This was the setup used to run the predection and training on local pc
 If you don't have Homebrew installed, you can install it by running the following command in your terminal:
