@@ -78,8 +78,8 @@ aws-cli/2.10.0 Python/3.11.2 Darwin/18.7.0 botocore/2.4.5
 
 # Setup of Cluster on AWS
 
-Download and install the latest version of Python from [python.org](https://www.python.org/downloads/).
+How to setup cluster on AWS [Click Here](https://github.com/dm0927/Cloud-Assignment-2/blob/main/readme/training.md)
 
 # Setup of Predection on EC2 Instance
 
-The readme file link is available over here [Click Here](https://github.com/dm0927/Cloud-Assignment-2/blob/main/readme/prediction.md)
+How to setup predection on ec2 instance [Click Here](https://github.com/dm0927/Cloud-Assignment-2/blob/main/readme/prediction.md)
