@@ -23,3 +23,44 @@
 
 Once cluster is created you have to go to security of ec2 isntances and open a port 22 and custom IP Address.
 
+# Connect to EMR Instance
+
+### 1. Connect to SSH Server
+
+```bash
+ssh -i "CS643-Cloud.pem" hadoop@ec2-3-92-224-244.compute-1.amazonaws.com
+```
+
+### 2. Copy the file from local to EMR Instance
+You need to exit from EMR instance and then use the below command
+
+```bash
+scp -i CS643-Cloud.pem ~/Desktop/ProgrammingAssignment2-main/training.py ubuntu@ec2-34-207-132-95.compute-1.amazonaws.com:~/trainingModel
+```
+
+Once done reconnect to server using ssh command
+
+### 3. Create a `Virtual Environment`
+
+Navigate to your project folder and create a virtual environment (replace "venv" with your preferred name):
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the `Virtual Environment`
+
+```bash
+source venv/bin/activate
+```
+
+### 5. Install Project Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Execute the command
+
+```bash
+python training.py```
